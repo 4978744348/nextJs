@@ -1,0 +1,16 @@
+header nav a.active {
+    border: 2px solid rgb(138, 199, 245);
+}
+
+blockquote {
+    font: italic 300 system-ui;
+}
+
+p {
+    font: 400 system-ui;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+    color: #e73939;
+}

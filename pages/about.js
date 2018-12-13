@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import Layout from '../components/Layout';
 
 const About = () => (
-    <div>
-        
+    <Layout title="about the app">
+
         <h1>About</h1>
         <p>this about page</p>
         <p>
@@ -10,11 +11,9 @@ const About = () => (
                 <a>go to contact</a>
             </Link>
         </p>
-        <button>
-            <a href="/">back</a>
-        </button>
 
-    </div>
+
+    </Layout>
 )
 
 export default About

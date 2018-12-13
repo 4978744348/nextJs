@@ -1,19 +1,14 @@
-import Link from 'next/link';
+import Layout from '../components/Layout';
 
 
-const Contact = () => (
-    <div>
-        <Link href="/">
-            <button>Home</button>
-        </Link>
-        <h1>Contact</h1>
-        <p>contact page</p>
+export default () => (
+    <Layout title="Contact us">
+        <div>
 
-        <Link prefetch href="/about">
-            <button>back</button>
-        </Link>
+            <h1>Contact</h1>
+            <p>contact page</p>
 
-    </div>
+        </div>
+    </Layout>
 )
 
-export default Contact;
